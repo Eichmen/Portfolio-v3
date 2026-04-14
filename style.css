@@ -17,6 +17,30 @@ body{
   overflow-x: hidden;
 }
 
+.home{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 8rem; /* prevents overlap with fixed header */
+}
+
+.home h1{
+  font-size: 5rem;
+}
+
+.home h3{
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.home p{
+  font-size: 1.6rem;
+  max-width: 600px;
+}
+
 header{
   margin-top: 20px;
   position: fixed;
@@ -75,10 +99,15 @@ nav a{
 
 }
 
-.social-icons a{
+.social-icons{
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
   font-size: 2.5rem;
-  margin-right: 1.5rem;
-  color: #333;
+}
+
+.social-icons a{
+  color: black;
   transition: 0.3s;
 }
 
@@ -86,4 +115,3 @@ nav a{
   transform: scale(1.2);
   color: #0077ff;
 }
-  
