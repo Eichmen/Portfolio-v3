@@ -49,6 +49,23 @@ nav{
   width: 100%;
 }
 
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.nav-links li a{
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover{
+  color: #0077ff;
+}
+
 nav a{
   font-size: 1.8rem;
   margin-left: 4rem;
