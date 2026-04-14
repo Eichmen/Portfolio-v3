@@ -177,7 +177,8 @@ section{
 }
 
 .project-card:hover{
-  transform: translateY(-8px);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .project-card a{
@@ -212,7 +213,8 @@ section{
 }
 
 .education-card:hover{
-  transform: translateY(-8px);
+ transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .education-card h3{
