@@ -68,7 +68,7 @@ header{
 }
 
 .logo a{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -80,7 +80,7 @@ header{
 }
 
 .logo span{
-  font-size: 1rem;
+  font-size: 2rem;
   color: #0077ff;
 }
 
@@ -98,13 +98,13 @@ nav{
 .nav-links{
  display: flex;
   list-style: none;
-  gap: 3rem;
+  gap: 4rem;
   margin-left: auto;
   padding: 0;
 }
 
 .nav-links li a{
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: black;
   font-weight: 500;
   transition: 0.3s;
