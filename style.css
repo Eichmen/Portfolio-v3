@@ -187,18 +187,22 @@ section{
 }
 
 .education h1{
- display: grid;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.education-container{
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 3rem;
 }
 
-.education-container{
-  display: flex;
-  justify-content: center;
-}
-
 .education-card{
-text-align: left;
+ background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
 }
 
 .education-card:hover{
