@@ -42,6 +42,10 @@ body{
   max-width: 600px;
 }
 
+.home, .about{
+  width: 100%;
+}
+
 header{
   margin-top: 20px;
   position: fixed;
@@ -119,4 +123,17 @@ nav a{
 .social-icons a:hover{
   transform: scale(1.2);
   color: #0077ff;
+}
+
+section{
+  padding: 10rem 9%;
+  scroll-margin-top: 10rem;
+}
+}
+
+.about{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
