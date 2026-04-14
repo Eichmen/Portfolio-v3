@@ -134,6 +134,14 @@ nav{
   color: #0077ff;
 }
 
+.projects h1,
+.education h1,
+.skills h1,
+.contact h1{
+  text-align: center;
+  width: 100%;
+}
+
 section{
   padding: 8rem 7%;
   scroll-margin-top: 10rem;
