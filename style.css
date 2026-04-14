@@ -146,6 +146,10 @@ section{
   justify-content: center;
 }
 
+/* ====================
+   Projects Section
+   ==================== */
+
 .projects{
   padding: 12rem 10%;
   max-width: 1200px;
@@ -170,7 +174,9 @@ section{
   padding: 2.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   max-width: 600px;
   text-align: left;
   transition: 0.3s ease;
@@ -179,6 +185,7 @@ section{
 .project-card:hover{
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .project-card a{
@@ -187,6 +194,10 @@ section{
   color: #0077ff;
   font-weight: 500;
 }
+
+/* ====================
+   Timeline Styles (for Experience and Education)
+   ==================== */
 
 .education{
   padding: 12rem 10%;
@@ -213,13 +224,13 @@ section{
 }
 
 .education-card:hover{
- transform: translateY(-10px);
+ transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .education-card h3{
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
 }
 
 .education-card p{
