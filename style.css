@@ -26,4 +26,28 @@ header{
   background-color: transparent;
   filter: drop-shadow(10px);
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
+
+.logo{
+  font-size: 3rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+}
+
+nav a{
+  font-size: 1.8rem;
+  margin-left: 4rem;
+  font-weight: 500;
+  transition: 0.3 ease;
+  border-bottom: 3px solild transparent;
+
+}
+  
