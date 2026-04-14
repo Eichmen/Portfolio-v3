@@ -166,8 +166,14 @@ section{
 }
 
 .project-card{
+ background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   width: 100%;
   max-width: 600px;
+  text-align: left;
+  transition: 0.3s ease;
 }
 
 .project-card:hover{
