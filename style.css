@@ -92,6 +92,7 @@ nav{
  display: flex;
   align-items: center;
   width: 100%;
+  gap: 3rem; /* THIS creates clean separation */
 }
 
 .nav-links{
@@ -99,7 +100,6 @@ nav{
   list-style: none;
   gap: 1.5rem;
   margin: 0;
-  margin-right: 3rem;
   padding: 0;
 }
 
@@ -114,14 +114,7 @@ nav{
   color: #0077ff;
 }
 
-nav a{
-  font-size: 1.8rem;
-  margin-left: 4rem;
-  font-weight: 500;
-  transition: 0.3 ease;
-  border-bottom: 3px solid transparent;
 
-}
 
 .social-icons{
   margin-top: 2rem;
