@@ -63,14 +63,24 @@ header{
 }
 
 .logo{
-  font-size: 1.4rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: 0.5s ease;
+  flex: 0 0 auto;
+}
+
+.logo a{
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 .logo:hover{
   transform: scale(1.1);
+}
+
+.logo span{
+  font-size: 1rem;
+  color: #0077ff;
 }
 
 h1, h2, h3{
