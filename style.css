@@ -145,3 +145,39 @@ section{
   flex-direction: column;
   justify-content: center;
 }
+
+.projects{
+  padding: 10rem 7%;
+  text-align: center;
+}
+
+.projects h1{
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.projects-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+.project-card{
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  text-align: left;
+}
+
+.project-card:hover{
+  transform: translateY(-8px);
+}
+
+.project-card a{
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0077ff;
+  font-weight: 500;
+}
