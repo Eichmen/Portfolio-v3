@@ -9,7 +9,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 html{
-  font-size: 56.25%
+  font-size: 56.25%;
   scroll-behavior: smooth;
 }
 body{
@@ -63,7 +63,8 @@ header{
 }
 
 .logo{
-  flex: 0 0 auto;
+   flex: 0 0 auto;
+  transition: 0.3s ease;
 }
 
 .logo a{
@@ -88,9 +89,8 @@ h1, h2, h3{
 }
 
 nav{
-  display: flex;
+ display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
 }
 
@@ -143,7 +143,6 @@ nav a{
 section{
   padding: 8rem 7%;
   scroll-margin-top: 10rem;
-}
 }
 
 .about{
