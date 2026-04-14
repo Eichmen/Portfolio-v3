@@ -148,6 +148,8 @@ section{
 
 .projects{
   padding: 12rem 10%;
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -157,9 +159,10 @@ section{
 }
 
 .projects-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 5rem;
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 320px));
+  gap: 6rem;
+  justify-content: center;
 }
 
 .project-card{
