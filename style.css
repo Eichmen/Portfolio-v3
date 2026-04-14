@@ -159,20 +159,15 @@ section{
 }
 
 .projects-container{
-   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 320px));
-  gap: 6rem;
-  justify-content: center;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 
 .project-card{
-  background: white;
-  padding: 2.5rem;
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: 0.3s ease;
-  text-align: left;
+  width: 100%;
+  max-width: 600px;
 }
 
 .project-card:hover{
@@ -192,8 +187,9 @@ section{
 }
 
 .education h1{
-  font-size: 3rem;
-  margin-bottom: 4rem;
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
 }
 
 .education-container{
@@ -202,14 +198,7 @@ section{
 }
 
 .education-card{
-  background: white;
-  padding: 3rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  max-width: 500px;
-  width: 100%;
-  text-align: left;
-  transition: 0.3s ease;
+text-align: left;
 }
 
 .education-card:hover{
