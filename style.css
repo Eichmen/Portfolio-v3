@@ -17,6 +17,11 @@ body{
   overflow-x: hidden;
 }
 
+.about p{
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
 .home{
    min-height: 100vh;
   display: flex;
