@@ -18,3 +18,13 @@ Visit the portfolio:
 ## Software Used and Tested with:
 - **Visual Code Studio**
 - **JsFiddle**
+
+## Sections include:
+- About Me
+- Skills
+- Projects
+- Experience
+- Education
+- Certifcations
+- Achievements
+- Contacts
