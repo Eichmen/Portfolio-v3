@@ -6,7 +6,7 @@ This website showcases my professional journey, technical skills, certifications
 
 ## 🚀 Live Website
 
-Visit the portfolio:
+Visit the portfolio: [https://eichmen.github.io/Portfolio-v3/#projects]
 
 ## 🛠️ Built With:
 - **Html**
