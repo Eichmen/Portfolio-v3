@@ -377,7 +377,7 @@ p {
     content: '';
     position: absolute;
     width: 3px;
-    background-color: #333;
+    background-color: #abc366;
     top: 0;
     bottom: 0;
     left: 25px;
@@ -395,7 +395,7 @@ p {
     height: 50px;
     left: 0;
     background-color: #fff;
-    border: 3px solid #333;
+    border: 3px solid #abc366;
     border-radius: 50%;
     z-index: 1;
     display: flex;
@@ -404,7 +404,7 @@ p {
 }
 
 .timeline-icon i {
-    color: #333;
+    color: #abc366;
     font-size: 1.8rem;
 }
 
