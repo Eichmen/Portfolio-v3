@@ -324,7 +324,7 @@ p {
 }
 
 .project-links a:hover {
-    color: black;
+    color: #abc366;
     transform: scale(1.2);
 }
 
