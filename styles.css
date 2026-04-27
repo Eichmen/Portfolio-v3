@@ -764,6 +764,21 @@ button:hover {
     background: #333;
 }
 
+/* WORD CLOUD */
+
+.wordcloud-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.wordcloud-container img {
+    width: 100%;
+    max-width: 400px;   /* controls size */
+    border-radius: 12px;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
